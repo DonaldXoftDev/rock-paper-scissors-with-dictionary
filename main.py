@@ -1,16 +1,16 @@
 import random
-import arts
+import ascii_arts
 
 options = {
-    'rock': arts.rock,
-    'paper' : arts.paper,
-    'scissors': arts.scissors,
+    'rock': ascii_arts.rock,
+    'paper' : ascii_arts.paper,
+    'scissors': ascii_arts.scissors,
 }
 
 winning_options = {
-    'rock': arts.scissors,
-    'paper': arts.rock,
-    'scissors':  arts.paper,
+    'rock': ascii_arts.scissors,
+    'paper': ascii_arts.rock,
+    'scissors':  ascii_arts.paper,
 }
 
 
